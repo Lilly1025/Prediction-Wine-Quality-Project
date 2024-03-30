@@ -47,5 +47,5 @@ code blocks for commands
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+ex. booboo
+ex. [@booboo](https://twitter.com/booboo)
