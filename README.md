@@ -6,8 +6,8 @@ https://archive.ics.uci.edu/dataset/186/wine+quality
 
 The goal is to model wine quality based on **all** and **Selected features** of physicochemical with Support Vector Machine
 target is Quality that:
-* quality <= 6.5 is bad wine
-* quality >6.5 is good wine
+* quality <= 5 is bad wine
+* quality > 5 is good wine
 ## Data Information
 Input Variables:
 * **fixed acidity:** most acids involved with wine or fixed or nonvolatile
@@ -32,8 +32,7 @@ Output Variable:
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+
 
 ### Executing program
 
