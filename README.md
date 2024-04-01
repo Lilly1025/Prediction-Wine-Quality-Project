@@ -30,18 +30,55 @@ Output Variable:
 ### Dependencies
 * python
 * VS code
-
-### Installing
-  git clone https://github.com/Lilly1025/Red-Wine-Quality-Prediction_ML_Project.git
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
 ```
-run
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn import preprocessing 
+plt.style.use("ggplot")  #using style ggplot
+from sklearn.metrics import accuracy_score, confusion_matrix
+```
+### Installing
+```
+git clone https://github.com/Lilly1025/Red-Wine-Quality-Prediction_ML_Project.git
+```
+Red-Wine-Quality-Prediction_ML_Project
+* All_features
+  * All_red_wine_SVM_**original**.ipynb - (SVM)
+  * All_red_wine_SVM_**V1.0.0**.ipynb - (SVM with unbalance data, eliminate outliers)
+  * All_red_wine_SVM_**V2.0.0**.ipynb - (SVM with balance data, eliminate outliers)
+    
+* Selected_features
+  * feature_selected_red_wine_SVM_**original**.ipynb - (SVM)
+  *  feature_selected_red_wine_SVM_**V1.0.0**.ipynb - (SVM with unbalance data, eliminate outliers)
+  *  feature_selected_red_wine_SVM_**V2.0.0**.ipynb - (SVM with balance data, eliminate outliers)
+  *  feature_selected_red_wine_SVM_**V3.0.0**.ipynb - (SVM with balance data, eliminate outliers, features scaling)
+
+* winequality-red.csv
+
+### Program Outline
+
+* Import Libralies
+* Load Red Wine Dataset
+* Preprocessing Data for binary classification
+* Detect & Deal With Outliers
+* Select features and target Variables
+* Split data set to training & test set
+* Training SVM Model
+* Predict using the trained SVM model
+* Future Predictions
+* Calculate the hinge loss for the test data
+* Confusion Matrix
+* Future Predictions
+* Calculate the hinge loss for the future prediction
+* Decision Boundary of SVM (for Selected_features)
+  
+```
+Run all
 ```
 
 ## Authors
+
 Pornpailin Kamonsantisuk
 6310401068 หมู่ 1
