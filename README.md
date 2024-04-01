@@ -1,11 +1,13 @@
-# **Red Wine Prediction**
+# **Red Wine Quality Prediction**
 ## Description
-**Red Wine Prediction** is Machine Learning project for 01418362 
+
+**Red Wine Quality Prediction** is Machine Learning project for 01418362 
 (Introduction to Machine Learning). This project use red wine dataset from [Vinho Verde] 
 https://archive.ics.uci.edu/dataset/186/wine+quality 
 
-The goal is to model wine quality based on **all** and **Selected features** of physicochemical with Support Vector Machine
-target is Quality that:
+The goal is to model wine quality based on **all** and **Selected features** 
+of physicochemical with Support Vector Machine 
+Target is quality that:
 * quality <= 5 is bad wine
 * quality > 5 is good wine
 ## Data Information
