@@ -10,6 +10,11 @@ of physicochemical with Support Vector Machine
 Target is quality that:
 * quality <= 5 is bad wine
 * quality > 5 is good wine
+
+**ATTENTION PLEASE**
+* เลือก V2.0.0 เป็น version ที่จะนำเสนอ เนื่องจากข้อมูลมีความสมดุลกัน ขนาดเท่าๆกัน ทำให้ได้เห็นประสิทธิภาพที่แท้จริงของโมเดล มีการปรับค่า parameter
+  เพื่อจูนโมเดลตามหลักของ Gradient descent
+  
 ## Data Information
 Input Variables:
 * **fixed acidity:** most acids involved with wine or fixed or nonvolatile
