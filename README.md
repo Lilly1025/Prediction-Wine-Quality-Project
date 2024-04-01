@@ -26,25 +26,22 @@ Output Variable:
 * quality: output variable (based on sensory data, score between 0 and 10)
 
 ## Getting Started
+
 ### Dependencies
 * python
 * VS code
 
 ### Installing
-
-
+  git clone https://github.com/Lilly1025/Red-Wine-Quality-Prediction_ML_Project.git
 
 ### Executing program
 
 * How to run the program
 * Step-by-step bullets
 ```
-code blocks for commands
+run
 ```
 
 ## Authors
-
-Contributors names and contact info
-
-ex. booboo
-ex. [@booboo](https://twitter.com/booboo)
+Pornpailin Kamonsantisuk
+6310401068 หมู่ 1
