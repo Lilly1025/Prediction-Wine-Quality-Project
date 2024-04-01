@@ -23,7 +23,7 @@ Input Variables:
 * **alcohol:** the percent alcohol content of the wine
 
 Output Variable:
-* quality: output variable (based on sensory data, score between 0 and 10)
+* **quality**: output variable (based on sensory data, score between 0 and 10)
 
 ## Getting Started
 
